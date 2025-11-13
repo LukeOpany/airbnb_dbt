@@ -1,0 +1,150 @@
+DBT PROCESS MIND MAP
+
+├── CORE WORKFLOW
+│   ├── Development Cycle
+│   │   ├── Write SQL models
+│   │   ├── Run dbt commands locally
+│   │   ├── Test and iterate
+│   │   └── Commit changes
+│   ├── Build Process
+│   │   ├── Parse project files
+│   │   ├── Compile SQL templates
+│   │   ├── Generate DAG
+│   │   └── Execute models in dependency order
+│   └── Deployment
+│       ├── CI/CD pipeline
+│       ├── Run in production environment
+│       └── Monitor execution
+
+├── KEY COMPONENTS
+│   ├── Models
+│   │   ├── SQL files with Jinja templating
+│   │   ├── Materializations (table, view, incremental)
+│   │   ├── References and dependencies
+│   │   └── Config blocks
+│   ├── Tests
+│   │   ├── Built-in tests (unique, not_null, accepted_values)
+│   │   ├── Custom data tests
+│   │   ├── Schema tests
+│   │   └── Test execution
+│   ├── Documentation
+│   │   ├── Model descriptions
+│   │   ├── Column descriptions
+│   │   ├── Generated docs site
+│   │   └── Business context
+│   ├── Seeds
+│   │   ├── CSV files as reference data
+│   │   ├── Static lookup tables
+│   │   └── Version controlled data
+│   ├── Snapshots
+│   │   ├── Slowly changing dimensions
+│   │   ├── Historical data tracking
+│   │   └── Type 2 dimensions
+│   └── Sources
+│       ├── Raw data definitions
+│       ├── Source freshness checks
+│       └── Data contracts
+
+├── CONFIGURATION
+│   ├── dbt_project.yml
+│   │   ├── Project name and version
+│   │   ├── Model configurations
+│   │   ├── Test configurations
+│   │   └── Variable definitions
+│   ├── profiles.yml
+│   │   ├── Connection credentials
+│   │   ├── Target environments
+│   │   └── Warehouse settings
+│   ├── packages.yml
+│   │   ├── External dependencies
+│   │   ├── Package versions
+│   │   └── Hub packages
+│   └── model configs
+│       ├── Materialization strategies
+│       ├── Incremental logic
+│       ├── Partitioning
+│       └── Performance tuning
+
+├── COMMON OPERATIONS
+│   ├── dbt run
+│   │   ├── Full refresh
+│   │   ├── Selective model runs
+│   │   └── Incremental runs
+│   ├── dbt test
+│   │   ├── All tests
+│   │   ├── Specific model tests
+│   │   └── Store test results
+│   ├── dbt docs generate
+│   │   ├── Generate documentation
+│   │   └── Build docs site
+│   ├── dbt compile
+│   │   ├── Compile SQL
+│   │   └── Check for errors
+│   └── dbt seed
+│       ├── Load CSV files
+│       └── Update seed data
+
+├── BEST PRACTICES
+│   ├── Model Organization
+│   │   ├── Staging layer
+│   │   ├── Intermediate layer
+│   │   ├── Marts layer
+│   │   └── Naming conventions
+│   ├── Performance
+│   │   ├── Incremental models
+│   │   ├── Indexing strategies
+│   │   ├── Clustering keys
+│   │   └── Query optimization
+│   ├── Testing Strategy
+│   │   ├── Test coverage
+│   │   ├── Critical path testing
+│   │   ├── Data quality checks
+│   │   └── Continuous testing
+│   ├── Documentation
+│   │   ├── Comprehensive docs
+│   │   ├── Business context
+│   │   ├── Data lineage
+│   │   └── Keep docs updated
+│   └── Version Control
+│       ├── Branching strategy
+│       ├── Pull request reviews
+│       ├── Change management
+│       └── Release process
+
+├── TROUBLESHOOTING
+│   ├── Common Errors
+│   │   ├── Compilation errors
+│   │   ├── Runtime errors
+│   │   ├── Dependency issues
+│   │   └── Connection problems
+│   ├── Debugging Tools
+│   │   ├── dbt debug
+│   │   ├── Verbose logging
+│   │   ├── Compilation inspection
+│   │   └── Test failure analysis
+│   └── Performance Issues
+│       ├── Slow queries
+│       ├── Resource optimization
+│       ├── Concurrent execution
+│       └── Warehouse tuning
+
+└── ADVANCED TOPICS
+    ├── Jinja Templating
+    │   ├── Variables and loops
+    │   ├── Macros and functions
+    │   ├── Conditional logic
+    │   └── Dynamic SQL
+    ├── Custom Materializations
+    │   ├── Custom logic
+    │   ├── Performance optimization
+    │   └── Specific use cases
+    ├── Hooks and Operations
+    │   ├── Pre-hooks
+    │   ├── Post-hooks
+    │   ├── Custom operations
+    │   └── Automation
+    └── Package Development
+        ├── Custom packages
+        ├── Reusable components
+        ├── Package publishing
+        └── Community contributions
