@@ -2,8 +2,10 @@ version: 2
 
 models: 
   - name: dim_listings_cleansed
+    description: This table contains cleansed listing data for Airbnb listings.
     columns: 
-      - name: listing_id 
+      - name: listing_id
+        description: The primary key for the listing. 
         data_tests: 
           - not_null
           - unique
