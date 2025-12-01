@@ -1,4 +1,12 @@
 {
   "dbt.dbtPythonPath": "/Users/lukeopany/Desktop/dbt/airbnb/dbt_env/bin/python",
-  "dbt.queryLimit": 10
+  "dbt.queryLimit": 10,
+  "files.exclude": {
+        "**/__pycache__": true,
+        "dbt_packages/": true,
+        "target/": true,
+        "logs/": true,
+        "dbt_internal_packages/": true,
+        "dbt_env/": true
+    }
 }
