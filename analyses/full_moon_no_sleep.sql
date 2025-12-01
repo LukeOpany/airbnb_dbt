@@ -1,5 +1,5 @@
 WITH fullmoon_reviews AS (
-    SELECT * FROM {{ ref('mart_fullmoon_reviews') }}
+    SELECT * FROM {{ ref('mart_fullmoon_review') }}
 )
 SELECT
     is_full_moon,

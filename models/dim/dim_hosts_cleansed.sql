@@ -8,7 +8,7 @@ with src_hosts as (
 select
     host_id,
     case
-      when host_name is null then 'anonymus'
+      when host_name is null then 'anonymous'
       else host_name
     end as host_name,
     is_superhost,

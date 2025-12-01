@@ -1,0 +1,4 @@
+{
+  "dbt.dbtPythonPath": "/Users/lukeopany/Desktop/dbt/airbnb/dbt_env/bin/python",
+  "dbt.queryLimit": 10
+}
