@@ -13,3 +13,13 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+---
+
+## 🔄 dbt Data Transformation Flow
+
+<img width="713" height="430" alt="overview" src="https://github.com/user-attachments/assets/dfcc5162-35f1-4c33-9b51-f5bda5b62588" />
+
+---
+
+
