@@ -16,7 +16,7 @@ Try running the following commands:
 
 ---
 
-## 🔄 dbt Data Transformation Flow
+##  dbt Data Transformation Flow
 
 <img width="713" height="430" alt="overview" src="https://github.com/user-attachments/assets/dfcc5162-35f1-4c33-9b51-f5bda5b62588" />
 
